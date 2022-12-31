@@ -1,13 +1,13 @@
 import React,{Component} from 'react';
-import Greet from '../../functional_component/src/component/Greet';
+import Greet from './component/Greet';
 // import logo from './logo.svg';
 import './App.css';
 
-class App extends Component{
+class App extends Component {
   render(){
     return (
       <div className="App">
-        <Greet />;
+        <Greet />
       </div>
     );
   }
