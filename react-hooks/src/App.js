@@ -4,6 +4,7 @@ import './App.css';
 import UseStateHook from './component/UseStateHook';
 import UseStateWithPreviousState from './component/UseStateWithPreviousState';
 import UseStateWithObjects from './component/UseStateWithObjects';
+import UseStatewithArray from './component/UseStatewithArray';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <UseStateHook />
       <UseStateWithPreviousState />
       <UseStateWithObjects />
+      <UseStatewithArray />
 
     </div>
   );
