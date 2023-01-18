@@ -8,6 +8,8 @@ import UseStatewithArray from './component/UseStatewithArray';
 import UseEffectHook from './component/UseEffectHook';
 import UseEffectConditionally from './component/UseEffectConditionally';
 import UseEffectOnlyOnce from './component/UseEffectOnlyOnce';
+import UseEffectToggle from './component/UseEffectToggle';
+// import UseEffectToggle from './component/UseEffectToggle';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <UseEffectHook />
       <UseEffectConditionally />
       <UseEffectOnlyOnce />
+      <UseEffectToggle />
+      
     </div>
   );
 }
