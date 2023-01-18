@@ -9,8 +9,8 @@ import UseEffectHook from './component/UseEffectHook';
 import UseEffectConditionally from './component/UseEffectConditionally';
 import UseEffectOnlyOnce from './component/UseEffectOnlyOnce';
 import UseEffectToggle from './component/UseEffectToggle';
-// import UseEffectToggle from './component/UseEffectToggle';
-import UseEffectwithincorrectDeps from './component/UseEffectwithincorrectDeps';
+// import UseEffectwithincorrectDeps from './component/UseEffectwithincorrectDeps';
+import UseEffectFetchingData1 from './component/UseEffectFetchingData1';
 
 function App() {
   return (
@@ -23,7 +23,8 @@ function App() {
       <UseEffectConditionally />
       <UseEffectOnlyOnce />
       <UseEffectToggle />
-      <UseEffectwithincorrectDeps />
+      {/* <UseEffectwithincorrectDeps /> */}
+      <UseEffectFetchingData1 />
       
     </div>
   );
