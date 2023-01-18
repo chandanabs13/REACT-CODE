@@ -10,6 +10,7 @@ import UseEffectConditionally from './component/UseEffectConditionally';
 import UseEffectOnlyOnce from './component/UseEffectOnlyOnce';
 import UseEffectToggle from './component/UseEffectToggle';
 // import UseEffectToggle from './component/UseEffectToggle';
+import UseEffectwithincorrectDeps from './component/UseEffectwithincorrectDeps';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <UseEffectConditionally />
       <UseEffectOnlyOnce />
       <UseEffectToggle />
+      <UseEffectwithincorrectDeps />
       
     </div>
   );
