@@ -7,6 +7,7 @@ import UseStateWithObjects from './component/UseStateWithObjects';
 import UseStatewithArray from './component/UseStatewithArray';
 import UseEffectHook from './component/UseEffectHook';
 import UseEffectConditionally from './component/UseEffectConditionally';
+import UseEffectOnlyOnce from './component/UseEffectOnlyOnce';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <UseStatewithArray />
       <UseEffectHook />
       <UseEffectConditionally />
+      <UseEffectOnlyOnce />
     </div>
   );
 }
